@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BibleDaily - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+        
+        .section p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .contact-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .feature-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 10px 5px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        /* Simple contact form */
+        .form-group { margin-bottom: 14px; }
+        label { display: block; font-weight: 600; margin-bottom: 6px; color: #333; }
+        input[type="text"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #e2e2e2;
+            border-radius: 8px;
+            font: inherit;
+            color: #333;
+            background: #fff;
+        }
+        textarea { min-height: 120px; resize: vertical; }
+        .form-actions { margin-top: 12px; }
+        .btn-secondary { background: #e9ecff; color: #3b4cca; }
+        .btn-secondary:hover { background: #dbe2ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📖 BibleDaily Support</h1>
+            <p>Your companion for daily Bible reading and verse memorization</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>About BibleDaily</h2>
+                <p>
+                    BibleDaily is a comprehensive Bible reading and verse memorization app designed to help you build 
+                    a consistent daily Bible reading habit and memorize Scripture effectively.
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>✨ Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="icon">📅</div>
+                        <h4>Daily Reading Plan</h4>
+                        <p>Follow a structured Bible-in-a-year reading plan</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🧠</div>
+                        <h4>Verse Memorization</h4>
+                        <p>5-week systematic approach to memorize verses</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🎯</div>
+                        <h4>SOAP Journal</h4>
+                        <p>Reflect and apply Scripture to your life</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🌐</div>
+                        <h4>Multi-Language</h4>
+                        <p>Support for English and Chinese</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🆘 Getting Help</h2>
+                
+                <h3>Frequently Asked Questions</h3>
+                
+                <h4>Q: How do I start a reading plan?</h4>
+                <p>A: Open the app and navigate to the Home screen. The daily reading plan will automatically show today's passages. Simply tap on a passage to read it.</p>
+                
+                <h4>Q: How does verse memorization work?</h4>
+                <p>A: Go to the Memorize tab and add verses you want to memorize. The app will create a 5-week plan with daily practice and review schedules.</p>
+                
+                <h4>Q: Can I share verses with friends?</h4>
+                <p>A: Yes! You can export verses as text, JSON files, or QR codes to share with friends who also use BibleDaily.</p>
+                
+                <h4>Q: How do I change Bible translations?</h4>
+                <p>A: Go to Settings and select your preferred translation (NIV, ESV, KJV, NKJV, etc.).</p>
+                
+                <h4>Q: How do I change the app language?</h4>
+                <p>A: Go to Settings → Language and choose between English and Chinese (中文).</p>
+            </div>
+            
+            <div class="section">
+                <h2>📨 Need Help? Send us a message</h2>
+                <p class="section-sub">Fill in the form below and your email app will open with the details.</p>
+                <form id="supportForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="topic">Topic</label>
+                        <select id="topic" name="topic">
+                            <option value="General Question">General Question</option>
+                            <option value="Bug Report">Bug Report</option>
+                            <option value="Feature Request">Feature Request</option>
+                            <option value="Account/Backup">Account/Backup</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Describe your issue or request..." required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn">Open Email</button>
+                        <button type="button" id="copyBtn" class="btn btn-secondary">Copy Text</button>
+                    </div>
+                    <p id="copiedNote" style="display:none; color:#3b4cca; margin-top:8px;">Copied! Paste into your email if it didn't open automatically.</p>
+                </form>
+                <noscript>
+                    <p style="margin-top:8px; color:#764ba2;">JavaScript is disabled. Please open a ticket on <a href="https://github.com/vincenthanjs/bible365/issues/new" target="_blank" rel="noopener">GitHub Issues</a>.</p>
+                </noscript>
+            </div>
+
+            <div class="section">
+                <h2>📧 Contact Us</h2>
+                <div class="contact-box">
+                    <p><strong>Support:</strong></p>
+                    <p>For technical issues, feature requests, or general inquiries, please use the form above.</p>
+                    <p style="margin-top: 20px;"><strong>GitHub:</strong></p>
+                    <p>Report bugs or contribute to the project:</p>
+                    <p><a href="https://github.com/vincenthanjs/bible365" target="_blank">github.com/vincenthanjs/bible365</a></p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🛡️ Privacy & Terms</h2>
+                <p>
+                    We take your privacy seriously. All your data is stored locally on your device. 
+                    We do not collect or share any personal information.
+                </p>
+                <p>
+                    <a href="privacy_policy.html" class="btn">Privacy Policy</a>
+                    <a href="https://github.com/vincenthanjs/bible365" class="btn" target="_blank">View on GitHub</a>
+                </p>
+            </div>
+            
+            <div class="section">
+                <h2>🔄 Version Information</h2>
+                <p><strong>Current Version:</strong> 6.3.0</p>
+                <p><strong>Last Updated:</strong> September 2024</p>
+                <p><strong>Platforms:</strong> iOS, Android</p>
+            </div>
+            
+            <div class="section">
+                <h2>💝 Support the Project</h2>
+                <p>
+                    BibleDaily is a free, open-source project. If you find it helpful, please consider:
+                </p>
+                <ul>
+                    <li>⭐ Starring the project on GitHub</li>
+                    <li>📝 Leaving a review on the App Store</li>
+                    <li>🔄 Sharing with friends and family</li>
+                    <li>🐛 Reporting bugs or suggesting features</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 BibleDaily. All rights reserved.</p>
+            <p>Made with ❤️ for the Kingdom of God</p>
+        </div>
+    </div>
+    <script>
+      (function(){
+        const form = document.getElementById('supportForm');
+        const copyBtn = document.getElementById('copyBtn');
+        const copiedNote = document.getElementById('copiedNote');
+        function buildEmailBody(values){
+          const lines = [
+            `Name: ${values.name}`,
+            `Email: ${values.email}`,
+            `Topic: ${values.topic}`,
+            '',
+            'Message:',
+            values.message,
+            '',
+            '---',
+            `Page: ${location.href}`,
+            `User-Agent: ${navigator.userAgent}`
+          ];
+          return lines.join('\n');
+        }
+        form.addEventListener('submit', function(e){
+          e.preventDefault();
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const topic = document.getElementById('topic').value;
+          const message = document.getElementById('message').value.trim();
+          const subject = encodeURIComponent(`[BibleDaily] ${topic} - ${name}`);
+          const body = encodeURIComponent(buildEmailBody({name,email,topic,message}));
+          const mailto = `mailto:vincent@acepod.com?subject=${subject}&body=${body}`;
+          // Try opening the user's email client
+          window.location.href = mailto;
+        });
+        copyBtn.addEventListener('click', async function(){
+          const name = document.getElementById('name').value.trim();
+          const email = document.getElementById('email').value.trim();
+          const topic = document.getElementById('topic').value;
+          const message = document.getElementById('message').value.trim();
+          const subject = `[BibleDaily] ${topic} - ${name}`;
+          const body = buildEmailBody({name,email,topic,message});
+          const combined = `To: vincent@acepod.com\nSubject: ${subject}\n\n${body}`;
+          try{
+            await navigator.clipboard.writeText(combined);
+            copiedNote.style.display = 'block';
+            setTimeout(()=> copiedNote.style.display = 'none', 2000);
+          }catch(_){
+            alert('Copied text to clipboard failed. Please copy manually.');
+          }
+        });
+      })();
+    </script>
+</body>
+</html>
+
